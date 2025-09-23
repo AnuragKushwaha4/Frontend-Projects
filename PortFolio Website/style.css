@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #1e1e1e;
+    font-family: sans-serif;
+    color: #a0a0a0;
+    line-height: 1.6
+}
+.container{
+    max-width: 1200px;
+    display: grid;
+    grid-template-columns: 350px 1fr;
+    gap: 40px;
+    padding-top: 40px;
+    margin: auto;
+}
+.sidebar{
+    height: 90vh;
+    background: #2a2a2a;
+    border: 1px solid #3a3a3a;
+    border-radius: 16px;
+    padding: 40px;
+
+}
+.main{
+    background: #2a2a2a;
+     border: 1px solid #3a3a3a;
+    border-radius: 16px;
+    padding: 40px;
+}
+
+
+
+/* Sidebar..... */
+
+
+
+/* Profile section: */
+.top{
+    text-align: center;
+}
+
+    
+.top img{
+
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    border: 1px solid #3a3a3a;
+}
+
+.top h2{
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-top: 20px;
+    color: #e0e0e0;
+}
+.top p{
+    background: #1e1e1e;
+    padding: 5px 15px;
+    color: #ffbf00;
+    border:1px solid #3a3a3a;
+    font-size: 0.8rem;
+    border-radius: 8px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+/* Contact */
+
+.middle{
+    margin-top: 30px;
+    border-top: 1px solid #3a3a3a;
+    padding-top: 20px;
+   
+}
+
+.label{
+    color: #a0a0a0;
+    font-weight: 500;
+    font-size: 0.8rem;
+}
+.value{
+    color: #e0e0e0;
+    text-decoration: none;
+}
+.email,.phno,.location{
+    margin: 15px;
+}
+
+/* Social Platforms */
+.lower{
+    margin-top: 30px;
+    padding: 20px;
+    border-top: 2px solid #3a3a3a;
+    text-align: center;
+    gap: 20px;
+}
+.lower img{
+    height: 30px;
+    width: 30px;
+}
+
+.lower img:hover{
+       filter: brightness(0) saturate(100%) invert(87%) sepia(0%) saturate(0%) hue-rotate(9deg) brightness(97%) contrast(93%);
+}
+
+
+/* Main content */
+
+/* navbar */
+.navbar {
+    padding: 20px 10px;
+    border-bottom: 2px solid #3a3a3a;
+}
+.navbar nav{
+    display: flex;
+    justify-content: end;
+    gap: 35px;
+    padding:10px 30px;
+    
+}
+.navbar a{
+    text-decoration: none;
+    color: #a0a0a0;
+}
+.navbar a:hover{
+    color: #ffbf00;
+}
+
+/* about  */
+
